@@ -1,0 +1,106 @@
+.top_div{
+	
+	width: 100%;
+	height: 24%;
+}
+.ipt{
+	border: 1px solid #d3d3d3;
+	padding: 3% 3%;
+	width: 80%;
+	border-radius: 1%;
+	padding-left: 11%;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+.ipt:focus{
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+.u_logo{
+	background: url("../images/username.png") no-repeat;
+	padding: 3% 3%;
+	position: absolute;
+	top: 55%;
+	left: 13.7%;
+
+}
+.p_logo{
+	background: url("../images/password.png") no-repeat;
+	padding: 3% 3%;
+	position: absolute;
+	top: 30%;
+	left: 13.7%;
+}
+.p_logo1{
+	background: url("../images/password.png") no-repeat;
+
+	position: absolute;
+	top: 69.5%;
+	left: 35.4%;
+	height: 3.5%;
+	width: 2%;
+}
+a{
+	text-decoration: none;
+}
+.tou{
+	background: url("../images/tou.png") no-repeat;
+	width: 59%;
+	height: 800%;
+	position: absolute;
+	top: -870%;
+	left: 85%;
+}
+.left_hand{
+	background: url("../images/left_hand.png") no-repeat;
+	width: 50%;
+	height: 500%;
+	position: absolute;
+	top: -13%;
+	left: 50%;
+}
+.right_hand{
+	background: url("../images/right_hand.png") no-repeat;
+	width: 20%;
+	height: 500%;
+	position: absolute;
+	top: -13%;
+	right: -21%;
+}
+.initial_left_hand{
+	background: url("../images/hand.png") no-repeat;
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	top: -12px;
+	left: 100px;
+}
+.initial_right_hand{
+	background: url("../images/hand.png") no-repeat;
+	width: 18%;
+	height: 200%;
+	position: absolute;
+	top: -130%;
+	right: -67%;
+}
+.left_handing{
+	background: url("../images/left-handing.png") no-repeat;
+	width: 18%;
+	height: 200%;
+	position: absolute;
+	top: -40%;
+	left: 200%;
+}
+.right_handinging{
+	background: url("../images/right_handing.png") no-repeat;
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	top: -21px;
+	left: 210px;
+}
